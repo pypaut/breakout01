@@ -1,0 +1,69 @@
+#####################
+### CORE FEATURES ###
+#####################
+
+[ ] - STEP 0 : DISPLAY
+    [ ] - SIMPLE COLORED BACKGROUND
+    [ ] - BAR BLOCK (INDEPENDANT)
+    [ ] - FRONT BLOCKS (INDEPENDANT)
+
+[ ] - STEP 1 : BAR MOVE
+    [ ] - CONTINUOUS LEFT, RIGHT
+    [ ] - DOESN'T GET OUT OF FRAME
+
+[ ] - STEP 2 : BALL MOVE
+    [ ] - BALL DISPLAY
+    [ ] - BALL MOVE
+        [ ] - BAR BOUNCE
+        [ ] - BLOCK BOUNCE
+        [ ] - WALL BOUNCE
+    [ ] - BOUNCE ANGLE
+        [ ] - ON BAR
+        [ ] - ON BLOCKS
+        [ ] - ON WALLS
+
+[ ] - STEP 3 : GAME MECHANICS
+    [ ] - BLOCK BREAKS UPON COLLISION
+          (SHOULD NOT CHANGE ANYTHING ABOUT BOUNCING PART)
+    [ ] - GAME RESTARTS UPON BOTTOM WILL HIT
+
+[ ] - STEP 4 : GAME OVER
+    [ ] - GAME STOPS UPON LOSS
+    [ ] - GAME OVER SCREEN
+    [ ] - RESTARTS UPON KEY PRESS
+
+
+###################
+###### MENUS ######
+###################
+
+[ ] - STEP 5 : MAIN MENU
+    [ ] - MENU DISPLAY AT STARTUP 
+        [ ] - MENU SCREEN
+        [ ] - START UPON KEY PRESS
+    [ ] - START BUTTON
+    [ ] - OPTION BUTTON (DOING NOTHING YET)
+
+[ ] - STEP 6 : PAUSE MENU
+    [ ] - GAME STOPS UPON KEY PRESS
+    [ ] - GAME GETS BACK UPON SAME KEY PRESS
+    [ ] - PAUSE SCREEN
+    [ ] - MAIN MENU BUTTON
+    [ ] - OPTION BUTTON (DOING NOTHING YET)
+
+[ ] - STEP 7 : OPTION MENU
+    [ ] - OPTION SCREEN
+    [ ] - GET BACK UPON KEY PRESS
+    [ ] - OPTIONS
+        [ ] - SOUNDS
+            [ ] - MUSIC
+            [ ] - EFFECTS
+            [ ] - DIFFICULTY?
+        [ ] - SKINS?
+
+
+
+
+BUG TRACKER :
+
+SPONTANEOUS TODO LIST :

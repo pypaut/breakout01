@@ -1,0 +1,26 @@
+BREAKOUT
+========
+
+## Goal
+Simple implementation of the game Breakout, in C++.
+
+
+## Implementation
+Each game object shall have a dedicated class:
+- bar: position, size
+- ball: position, size, direction, speed
+- blocks: position, size
+- map: contains every instanciated objects
+The game behavior shall be the following: at update step of the main loop,
+collision between objects will be checked, thus updating the state: present
+blocks, blocks attributes, bar position...
+
+
+## Build
+From the root of the project, simply use _make_ , and _./breakout_ to
+respectively build and launch the game.
+Use the arrows to move the bar, or the A, D keys.
+
+
+## About the author
+Geoffrey Jount (geoffreyjt@outlook.fr), French IT student.
