@@ -67,3 +67,4 @@
 BUG TRACKER :
 
 SPONTANEOUS TODO LIST :
+    [ ] - Event() & Update() should be fused?
