@@ -3,14 +3,23 @@
 int main(void)
 {
 
-    bool Running = true;
+  if (SDL_Init(SDL_INIT_EVERYTHING))
+  {
+    SDL_Log("Unable to initialize SDL : %s", SDL_GetError());
+    return 1;
+  }
 
-    while (Running)
-    {
-        Event();
-        Update();
-        Draw();
-    }
 
-    return 0;
+  bool Running = true;
+
+  while (Running)
+  {
+    Event();
+    Update();
+    Draw();
+  }
+
+  SDL_Quit();
+
+  return 0;
 }

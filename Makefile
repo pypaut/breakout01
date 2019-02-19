@@ -1,10 +1,11 @@
 CC = g++
 CXXFLAGS =  -Wall -Werror -Wextra -pedantic -std=c++17 -Isrc/includes
+LIBS = -lSDL2
 OBJS =\
-	src/draw.cc\
-	src/event.cc\
 	src/main.cc\
-	src/update.cc
+  src/update.cc\
+  src/draw.cc\
+  src/event.cc
 BIN = breakout
 TRASH = $(BIN)
 
@@ -13,7 +14,7 @@ TRASH = $(BIN)
 all: $(BIN)
 
 $(BIN):
-	$(CC) $(CXXFLAGS) $(OBJS) -o $(BIN)
+	$(CC) $(CXXFLAGS) $(OBJS) -o $(BIN) $(LIBS)
 
 clean:
 	$(RM) $(TRASH)
