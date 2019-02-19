@@ -2,5 +2,5 @@
 
 void Draw(void)
 {
-    std::cout << "I am Draw\n";
+    //std::cout << "I am Draw\n";
 }

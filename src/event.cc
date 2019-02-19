@@ -2,5 +2,5 @@
 
 void Event(void)
 {
-    std::cout << "I am Event\n";
+    //std::cout << "I am Event\n";
 }

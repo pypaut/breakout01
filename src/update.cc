@@ -2,5 +2,5 @@
 
 void Update(void)
 {
-    std::cout << "I am Update\n";
+    //std::cout << "I am Update\n";
 }
