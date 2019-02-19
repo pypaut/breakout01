@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include "SDL2/SDL.h"
 
 #include "ball.hh"
 #include "bar.hh"
