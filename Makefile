@@ -2,10 +2,7 @@ CC = g++
 CXXFLAGS =  -Wall -Werror -Wextra -pedantic -std=c++17 -Isrc/includes
 LIBS = -lSDL2
 OBJS =\
-	src/main.cc\
-  src/update.cc\
-  src/draw.cc\
-  src/event.cc
+	src/main.cc
 BIN = breakout
 TRASH = $(BIN)
 
